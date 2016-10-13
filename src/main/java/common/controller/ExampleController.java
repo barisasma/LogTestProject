@@ -26,9 +26,6 @@ public class ExampleController {
         TestModel tm = new TestModel(12345, "123456", "TestModel Name");
         System.out.println(tm);
         
-        System.setProperty("userfilename", "BARIS");
-        logger.error("AKIN SARIGUL");
-        
         logger.info(tm + " is calculated");
         
 
