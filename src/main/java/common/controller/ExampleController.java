@@ -23,7 +23,7 @@ public class ExampleController {
         System.out.println(tm);
         
         logger.info(tm + " is calculated");
-        
+        System.out.println(1234);
 
         ModelAndView model = new ModelAndView("Example");
         model.addObject("msg", "Example MVC + LOG4J Graylog");
