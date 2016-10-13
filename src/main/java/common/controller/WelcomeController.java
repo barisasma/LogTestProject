@@ -23,12 +23,11 @@ public class WelcomeController {
         TestModel tm = new TestModel(12345, "123456", "TestModel Name");
         LoggerInterface.getInstance().sendTestModelMessage(tm, "Done", "Done is real", "3", this.getClass().getName());
 
-
         //logs exception
         logger.error("This is Error message", new Exception("Testing"));
 
 
-        ModelAndView model = new ModelAndView("welcome");
+        ModelAndView model = new ModelAndView("Welcome");
         model.addObject("msg", "Hello Spring MVC + Log4j");
 
         return model;
