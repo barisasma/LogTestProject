@@ -16,9 +16,7 @@ public class ExampleController {
     public ModelAndView getExample(){
         
         //logs debug message 
-        if(logger.isInfoEnabled()){
-            logger.info("pnrNO: B9W67L");
-        }
+        
 
         //logs exception
         logger.error("This is Error message", new Exception("Testing"));
