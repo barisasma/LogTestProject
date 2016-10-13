@@ -14,9 +14,7 @@ public class ExampleController {
     
     @RequestMapping(value = "/example", method = RequestMethod.GET)
     public ModelAndView getExample(){
-        
-        //logs debug message 
-        
+
 
         //logs exception
         logger.error("This is Error message", new Exception("Testing"));
